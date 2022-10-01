@@ -1,9 +1,18 @@
-# Call me Mr. Schneider
+## Call me Mr. Schneider
 
 - 🎮 Mobile and game developer.
 - ⚡ Working from home.
 - 👨‍💻 Acadêmico no cruso de Ciência da Computação
 - 👽 Atualmente trabalhando como mobile e game dev.
 
-![Mr. Schneider's GitHub stats](https://github-readme-stats.vercel.app/api?username=1mrschneider&theme=radical&show_icons=true)
 ![Most Usage Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=1mrschneider&theme=radical)
+![Mr. Schneider's GitHub stats](https://github-readme-stats.vercel.app/api?username=1mrschneider&theme=radical&show_icons=true)
+
+## Contacts
+- <img align="left" alt="codeSTACKr | LinkedIn" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />Linkedin: https://www.linkedin.com/in/vinicius-schneider-09525a205/
+- <img align="left" alt="codeSTACKr | Instagram" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/instagram.svg" />Instagram: https://www.instagram.com/mr._.schneider/
+- <img align="left" alt="codeSTACKr | Facebook" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/facebook.svg" />Facebook: https://www.facebook.com/1mrschneider
+
+
+
+
