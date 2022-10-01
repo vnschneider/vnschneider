@@ -1,6 +1,6 @@
 # Mr. Schneider
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=radical&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=myusername&theme=radical)
+![Mr. Schneider's GitHub stats](https://github-readme-stats.vercel.app/api?username=1mrschneider&theme=radical&show_icons=true)
+![Most Usage Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=1mrschneider&theme=radical)
 
 
