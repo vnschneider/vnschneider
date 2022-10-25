@@ -9,6 +9,8 @@
 
 ![Mr. Schneider's GitHub stats](https://github-readme-stats.vercel.app/api?username=1mrschneider&theme=radical&line_height=40&show_icons=true)
 ![Most Usage Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=1mrschneider&theme=radical)
+  
+</div>
 
 ## Contacts
 - <img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />Linkedin: https://www.linkedin.com/in/vinicius-schneider-09525a205/ 
