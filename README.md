@@ -5,6 +5,8 @@
 - 👨‍💻 Student of Computer Science (Bachelor).
 - 👽 Working with mobile and game development.
 
+<div align="center" style="display: inline_block"><br>
+
 ![Mr. Schneider's GitHub stats](https://github-readme-stats.vercel.app/api?username=1mrschneider&theme=radical&line_height=40&show_icons=true)
 ![Most Usage Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=1mrschneider&theme=radical)
 
