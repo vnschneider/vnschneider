@@ -14,7 +14,7 @@
   <img align="center" alt="Tailwind" height="70" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg">
   <img align="center" alt="HTML" height="70" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg">
   <img align="center" alt="Js" height="70" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-plain.svg">
-  <img align="center" alt="CSS" height="70" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain-wordmark.svg">
+  <img align="center" alt="CSS" height="70" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg">
   <img align="center" alt="CSS" height="70" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/godot/godot-original-wordmark.svg">
   <img align="center" alt="Bootstrap" height="70" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg">
   <img align="center" alt="React" height="70" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-plain.svg">
