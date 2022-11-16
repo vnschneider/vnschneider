@@ -1,4 +1,4 @@
-# Call me Mr. Schneider
+# Hello world, i am Vinícius Schneider
 
 - 🎮 Mobile and game developer.
 - ⚡ Working from home.
