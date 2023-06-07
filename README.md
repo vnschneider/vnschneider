@@ -6,8 +6,8 @@
 - 👽 Working with mobile and game development.
 
 #
-![Mr. Schneider's GitHub stats](https://github-readme-stats.vercel.app/api?username=1mrschneider&theme=radical&line_height=40&show_icons=true)
-![Most Usage Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=1mrschneider&theme=radical)
+![Mr. Schneider's GitHub stats](https://github-readme-stats.vercel.app/api?username=vnschneider&theme=radical&line_height=40&show_icons=true)
+![Most Usage Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vnschneider&theme=radical)
 
 #
 <div align="center" style="display: inline_block"><br>
@@ -31,6 +31,6 @@
   <a href = "mailto:mrschneider.v@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/vinicius-schneider-09525a205" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
   
-  ![Snake animation](https://github.com/1mrschneider/1mrschneider/blob/output/github-contribution-grid-snake.svg)
+  ![Snake animation](https://github.com/vnschneider/vnschneider/blob/output/github-contribution-grid-snake.svg)
   
 </div>
