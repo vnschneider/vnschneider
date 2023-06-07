@@ -1,3 +1,5 @@
+<img align="right" width="24%" src="https://i.ibb.co/S6MfQb3/octocat-1686097544123.png" /> 
+
 # Hello world, i am Vinícius Schneider
 
 - 🎮 Mobile and game developer.
