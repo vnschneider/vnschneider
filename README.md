@@ -2,14 +2,14 @@
 
 # Hello world, i am Vinicius Schneider
 
-- 🎮 Mobile and game developer.
+- 🎮 Full-stack mobile developer.
 - ⚡ Working from home.
 - 👨‍💻 Student of Computer Science (Bachelor).
 - 👽 Working with mobile and game development.
 
 #
-![Mr. Schneider's GitHub stats](https://github-readme-stats.vercel.app/api?username=vnschneider&theme=radical&line_height=40&show_icons=true)
-![Most Usage Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vnschneider&theme=radical)
+![Mr. Schneider's GitHub stats](https://github-readme-stats.vercel.app/api?username=Schneider-AS&theme=radical&line_height=40&show_icons=true)
+![Most Usage Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Schneider-AS&theme=radical)
 
 #
 <div align="center" style="display: inline_block"><br>
@@ -33,6 +33,6 @@
   <a href = "mailto:contatovschneider@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/vnschneider" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
   
-  ![Snake animation](https://github.com/vnschneider/vnschneider/blob/output/github-contribution-grid-snake.svg)
+  ![Snake animation](https://github.com/Schneider-AS/Schneider-AS/blob/output/github-contribution-grid-snake.svg)
   
 </div>
