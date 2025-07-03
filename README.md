@@ -1,6 +1,6 @@
 # Hello world, i am Vinicius Schneider [![wakatime](https://wakatime.com/badge/user/cb4ed386-05b4-4a11-b662-daa296968a02.svg)](https://wakatime.com/@cb4ed386-05b4-4a11-b662-daa296968a02)
 
-- 🎮 Mobile developer.
+- 📱 Mobile developer.
 - ⚡ Working from home.
 - 👨‍💻 Student of Computer Science (Bachelor).
 - 👽 Working with mobile and game development.
