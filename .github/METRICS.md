@@ -10,13 +10,13 @@ The workflow runs daily at 09:17 UTC (06:17 in São Paulo), on changes to its co
 
 ## Credentials
 
-The workflow uses the repository-scoped GitHub Actions token for public-account data and generated-asset commits. No personal token is required by this tested configuration. This keeps organization repositories outside the installation's access out of the generated panels.
+METRICS_TOKEN is the user-provided account token for Metrics queries. The repository-scoped github.token is used separately for generated-asset commits. METRICS_EXCLUDED_REPOS holds the list of private repositories excluded during setup; names are kept in an Actions secret, not in the public configuration. Refresh that exclusion list when repository visibility changes. Repository names are disabled in notable-contribution badges as an additional display constraint.
 
 ## Data scope
 
 Languages estimate the language distribution of accessible repositories the user contributes to, using the default API-based analyzer. The indepth commit analyzer is disabled because it made the initial rendering unnecessarily slow. The chart describes repositories, not an individual skill level or an exact count of the user's code.
 
-Notable contributions are filtered to organizations and include commits and pull requests. Follow-up displays issues and pull requests created by the user, including those outside this repository. WakaTime is not enabled and does not require an additional token.
+Notable contributions are filtered to organizations and include commits and pull requests; repository-name labels are disabled. Follow-up displays issues and pull requests created by the user, including those outside this repository. WakaTime is not enabled and does not require an additional token.
 
 ## Dependencies
 

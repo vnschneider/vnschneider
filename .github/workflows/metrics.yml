@@ -26,7 +26,8 @@ jobs:
         if: '!cancelled()'
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # stable latest
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.METRICS_TOKEN }}
+          repositories_skipped: ${{ secrets.METRICS_EXCLUDED_REPOS }}
           committer_token: ${{ github.token }}
           committer_branch: main
           user: vnschneider
@@ -44,7 +45,8 @@ jobs:
         if: '!cancelled()'
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # stable latest
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.METRICS_TOKEN }}
+          repositories_skipped: ${{ secrets.METRICS_EXCLUDED_REPOS }}
           committer_token: ${{ github.token }}
           committer_branch: main
           user: vnschneider
@@ -63,14 +65,15 @@ jobs:
           plugin_languages_indepth: no
           plugin_notable: yes
           plugin_notable_from: organization
-          plugin_notable_repositories: yes
+          plugin_notable_repositories: no
           plugin_notable_types: commit, pull_request
 
       - name: Pull requests and achievements
         if: '!cancelled()'
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # stable latest
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.METRICS_TOKEN }}
+          repositories_skipped: ${{ secrets.METRICS_EXCLUDED_REPOS }}
           committer_token: ${{ github.token }}
           committer_branch: main
           user: vnschneider
