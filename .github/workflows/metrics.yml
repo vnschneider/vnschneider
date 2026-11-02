@@ -9,7 +9,7 @@ on:
         description: Panel to regenerate
         type: choice
         default: all
-        options: [all, overview, development, collaboration]
+        options: [all, overview, development, collaboration, activity]
 
 permissions:
   contents: read
@@ -25,7 +25,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Overview and contribution calendar
+      - name: GitHub overview
         if: "!cancelled() && (github.event_name != 'workflow_dispatch' || inputs.panel == 'all' || inputs.panel == 'overview')"
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # stable latest
         with:
@@ -36,13 +36,11 @@ jobs:
           user: vnschneider
           template: classic
           config_timezone: America/Sao_Paulo
-          config_display: large
+          config_display: regular
           plugins_errors_fatal: yes
           filename: assets/metrics/overview.svg
           base: header, activity, community, repositories
-          config_order: base.header, base.activity, base.community, base.repositories, isocalendar
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          config_order: base.header, base.activity, base.community, base.repositories
 
       - name: Languages and organization contributions
         if: "!cancelled() && (github.event_name != 'workflow_dispatch' || inputs.panel == 'all' || inputs.panel == 'development')"
@@ -89,9 +87,25 @@ jobs:
           config_order: followup
           plugin_followup: yes
           plugin_followup_sections: user
-          plugin_achievements: no
-          plugin_achievements_display: compact
-          plugin_achievements_limit: 3
-          plugin_achievements_only: polyglot, developer, member
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: no
+
+      - name: Recent public activity
+        if: "!cancelled() && (github.event_name != 'workflow_dispatch' || inputs.panel == 'all' || inputs.panel == 'activity')"
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          repositories_skipped: ${{ secrets.METRICS_EXCLUDED_REPOS }}
+          committer_token: ${{ github.token }}
+          committer_branch: main
+          user: vnschneider
+          template: classic
+          config_timezone: America/Sao_Paulo
+          config_display: regular
+          plugins_errors_fatal: yes
+          filename: assets/metrics/activity.svg
+          base: ""
+          plugin_activity: yes
+          plugin_activity_visibility: public
+          plugin_activity_limit: 5
+          plugin_activity_days: 30
+          plugin_activity_filter: push, issue, pr, release, review
+          plugin_activity_timestamps: yes
