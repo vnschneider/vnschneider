@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header-pt.svg" width="100%" alt="Vinicius Schneider — desenvolvimento web, mobile e integrações de IA" />
+  <img src="assets/banner.png" width="100%" alt="Vinicius Schneider — desenvolvimento web, mobile e integrações de IA" />
 </p>
 
 <p align="center">
