@@ -4,9 +4,12 @@ on:
   schedule:
     - cron: "17 9 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: [.github/workflows/metrics.yml]
+    inputs:
+      panel:
+        description: Panel to regenerate
+        type: choice
+        default: all
+        options: [all, overview, development, collaboration]
 
 permissions:
   contents: read
@@ -23,7 +26,7 @@ jobs:
       contents: write
     steps:
       - name: Overview and contribution calendar
-        if: '!cancelled()'
+        if: "!cancelled() && (github.event_name != 'workflow_dispatch' || inputs.panel == 'all' || inputs.panel == 'overview')"
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # stable latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -42,7 +45,7 @@ jobs:
           plugin_isocalendar_duration: full-year
 
       - name: Languages and organization contributions
-        if: '!cancelled()'
+        if: "!cancelled() && (github.event_name != 'workflow_dispatch' || inputs.panel == 'all' || inputs.panel == 'development')"
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # stable latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -69,7 +72,7 @@ jobs:
           plugin_notable_types: commit, pull_request
 
       - name: Pull requests and achievements
-        if: '!cancelled()'
+        if: "!cancelled() && (github.event_name != 'workflow_dispatch' || inputs.panel == 'all' || inputs.panel == 'collaboration')"
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # stable latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -88,6 +91,7 @@ jobs:
           plugin_followup_sections: user
           plugin_achievements: yes
           plugin_achievements_display: compact
-          plugin_achievements_limit: 6
+          plugin_achievements_limit: 3
+          plugin_achievements_only: polyglot, developer, member
           plugin_achievements_threshold: C
           plugin_achievements_secrets: no

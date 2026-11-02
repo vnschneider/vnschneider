@@ -4,9 +4,9 @@ The `Profile metrics` workflow generates three SVGs on `main`:
 
 - `assets/metrics/overview.svg`: GitHub overview and full-year isometric calendar.
 - `assets/metrics/development.svg`: languages and contributions to organization repositories.
-- `assets/metrics/collaboration.svg`: user-created issues and pull requests, plus up to six compact achievements.
+- `assets/metrics/collaboration.svg`: user-created issues and pull requests, plus three compact achievements.
 
-The workflow runs daily at 09:17 UTC (06:17 in São Paulo), on changes to its configuration, and manually from Actions. Generated-asset commits do not trigger another rendering run.
+The workflow runs daily at 09:17 UTC (06:17 in São Paulo), and manually from Actions, for all panels or a selected panel. Generated-asset commits do not trigger another rendering run.
 
 ## Credentials
 

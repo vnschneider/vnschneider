@@ -1,0 +1,42 @@
+[
+  {
+    "file": "python.svg",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/python/python-original.svg",
+    "sha": "e0e096a24e59fb9f1e501899389e3905c6c27cd7"
+  },
+  {
+    "file": "typescript.svg",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/typescript/typescript-original.svg",
+    "sha": "e1db5f196597f0815d315dfacf4191bb3df75fa4"
+  },
+  {
+    "file": "react.svg",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/react/react-original.svg",
+    "sha": "9af92b9dd783a9e1a2f07bdc5376724c08f05ef2"
+  },
+  {
+    "file": "nextjs.svg",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/nextjs/nextjs-original.svg",
+    "sha": "6a080479ef02569733e6fb1e7d9e4a6317b244fa"
+  },
+  {
+    "file": "fastapi.svg",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/fastapi/fastapi-original.svg",
+    "sha": "85f2d133724ff316983242ee963694382da75e48"
+  },
+  {
+    "file": "postgresql.svg",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/postgresql/postgresql-original.svg",
+    "sha": "4656cb79adde771d6eb3bf58647f4e82e89e083b"
+  },
+  {
+    "file": "docker.svg",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/docker/docker-original.svg",
+    "sha": "bbeaed2effdc1f6840aff73491a5faa2a585885b"
+  },
+  {
+    "file": "flutter.svg",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/flutter/flutter-original.svg",
+    "sha": "bd8d0b4ac1e176d52e3a738fa619b063040d7e27"
+  }
+]
