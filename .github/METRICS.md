@@ -4,7 +4,7 @@ The `Profile metrics` workflow generates three SVGs on `main`:
 
 - `assets/metrics/overview.svg`: GitHub overview and full-year isometric calendar.
 - `assets/metrics/development.svg`: languages and contributions to organization repositories.
-- `assets/metrics/collaboration.svg`: user-created issues and pull requests, plus three compact achievements.
+- `assets/metrics/collaboration.svg`: user-created issues and pull requests.
 
 The workflow runs daily at 09:17 UTC (06:17 in São Paulo), and manually from Actions, for all panels or a selected panel. Generated-asset commits do not trigger another rendering run.
 
@@ -29,3 +29,5 @@ Review the stable action's input manifest when updating the revision. The snake 
 Sources: [Metrics](https://github.com/lowlighter/metrics), [Languages](https://github.com/lowlighter/metrics/blob/latest/source/plugins/languages/README.md), [Snake](https://github.com/Platane/snk).
 
 The recent-language section is disabled because the stable release crashed on a missing commit entry in GitHub activity events during the initial run. Most-used languages use the default API-based analyzer.
+
+Achievements are disabled: the stable renderer did not complete in the initial tests, including when limiting displayed achievements. Follow-up rendering succeeds independently.

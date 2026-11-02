@@ -41,6 +41,10 @@ React/Next.js · Node.js · FastAPI · Flutter · PostgreSQL/pgvector · Docker 
 
 ![Languages and contributions to organization repositories](assets/metrics/development.svg)
 
+### Pull requests and issues
+
+![Issues and pull requests on GitHub](assets/metrics/collaboration.svg)
+
 ## Contributions
 
 <picture>
