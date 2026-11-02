@@ -56,18 +56,11 @@ jobs:
           base: ""
           config_order: languages, notable
           repositories_affiliations: owner, collaborator, organization_member
-          commits_authoring: vnschneider, Vinícius Schneider, Vinicius Schneider, Schneider-AS
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_details: percentage
           plugin_languages_sections: most-used
-          plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 5
-          plugin_languages_analysis_timeout_repositories: 1
-          plugin_languages_indepth_custom: >-
-            fabrica-de-inovacao/core-open-library-assistant,
-            fabrica-de-inovacao/expeditto,
-            vnschneider/sabichao
+          plugin_languages_indepth: no
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_repositories: yes

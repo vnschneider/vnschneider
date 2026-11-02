@@ -14,7 +14,7 @@ The workflow uses the repository-scoped GitHub Actions token for public-account 
 
 ## Data scope
 
-Languages include accessible owner, collaborator and organization-member repositories, with three public projects added explicitly. The indepth analyzer matches `vnschneider` and the public author aliases Vinícius Schneider, Vinicius Schneider and Schneider-AS and has a bounded analysis time. Results depend on accessible repositories, author matching and the time available for analysis; they are not an exhaustive audit of every contribution.
+Languages estimate the language distribution of accessible repositories the user contributes to, using the default API-based analyzer. The indepth commit analyzer is disabled because it made the initial rendering unnecessarily slow. The chart describes repositories, not an individual skill level or an exact count of the user's code.
 
 Notable contributions are filtered to organizations and include commits and pull requests. Follow-up displays issues and pull requests created by the user, including those outside this repository. WakaTime is not enabled and does not require an additional token.
 
@@ -28,4 +28,4 @@ Review the stable action's input manifest when updating the revision. The snake 
 
 Sources: [Metrics](https://github.com/lowlighter/metrics), [Languages](https://github.com/lowlighter/metrics/blob/latest/source/plugins/languages/README.md), [Snake](https://github.com/Platane/snk).
 
-The recent-language section is disabled because the stable release crashed on a missing commit entry in GitHub activity events during the initial run. Most-used languages still use the bounded indepth analyzer.
+The recent-language section is disabled because the stable release crashed on a missing commit entry in GitHub activity events during the initial run. Most-used languages use the default API-based analyzer.
